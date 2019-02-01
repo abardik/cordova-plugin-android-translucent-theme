@@ -31,7 +31,7 @@
 				<item name="android:navigationBarColor">@color/cordova_window_primary_dark</item>
 				<item name="android:colorPrimaryDark">@color/cordova_window_primary_dark</item>
 				<item name="android:windowDrawsSystemBarBackgrounds">true</item>
-				<item name="android:windowTranslucentStatus">true</item>
+				<!--<item name="android:windowTranslucentStatus">true</item>-->
   			</style>
   		</config-file>
   	</platform>
