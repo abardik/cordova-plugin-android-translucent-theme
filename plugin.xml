@@ -24,7 +24,7 @@
   			<style name="CordovaWindowBackgroundTheme" parent="@android:style/Theme.NoTitleBar">
   				<item name="android:windowBackground">@color/cordova_window_background</item>
 				<item name="android:colorBackground">@color/cordova_window_background</item>
-				<item name="android:windowFullscreen">true</item>
+				<item name="android:windowIsTranslucent">true</item>
   			</style>
   		</config-file>
   	</platform>
