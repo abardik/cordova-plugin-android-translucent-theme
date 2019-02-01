@@ -1,6 +1,6 @@
 # :snowflake: cordova-plugin-android-window-background :art: :lollipop:
 
-- This fork is reverted to cordova-android 6.*
+- This fork is reverted to cordova-android 6.2.0
 
 This is a simple plugin for Android which will set the window background color for you app's MainActivity to a color of your choice.
 This allows you to avoid the standard dark grey background which will flash for a second before your splash screen appears. Set the color to the same background as your splash screen for a smoother start-up effect.
@@ -18,7 +18,7 @@ Or install directly from this repo:
 	
 ## Supported Platforms
 
-- Android (cordova-android 7.0.0+)
+- Android (cordova-android 6.2.0+)
 
 ## Configuration
 
