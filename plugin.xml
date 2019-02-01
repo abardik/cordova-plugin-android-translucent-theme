@@ -22,7 +22,7 @@
 
   		<config-file target="res/values/cordova-window-background-styles.xml" parent="/*">
   			<style name="CordovaWindowBackgroundTheme" parent="@android:style/Theme.NoTitleBar">
-  				<item name="android:windowBackground">@drawable/splashscreen</item>
+  				<item name="android:windowBackground">@drawable/screen</item>
 				<item name="android:colorBackground">@color/cordova_window_background</item>
 				<item name="android:statusBarColor">@color/cordova_window_background</item>
 				<item name="android:navigationBarColor">@color/cordova_window_background</item>
