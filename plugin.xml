@@ -28,7 +28,6 @@
 				<item name="android:navigationBarColor">@color/cordova_window_background</item>
 				<item name="android:windowDrawsSystemBarBackgrounds">true</item>
 				<item name="android:windowTranslucentStatus">true</item>
-				<item name="android:windowFullscreen">true</item>
   			</style>
   		</config-file>
   	</platform>
