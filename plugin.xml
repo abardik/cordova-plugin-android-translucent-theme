@@ -8,6 +8,7 @@
 	
   	<platform name="android">
   		<preference name="WINDOW_BACKGROUND_COLOR" />
+  		<preference name="WINDOW_PRIMARY_DARK_COLOR" />
 
   		<edit-config file="AndroidManifest.xml" target="/manifest/application/activity" mode="merge">
   			<activity android:theme="@style/CordovaWindowBackgroundTheme"/>
@@ -18,6 +19,7 @@
 
   		<config-file target="res/values/cordova-window-background-strings.xml" parent="/*">
   			<color name="cordova_window_background">$WINDOW_BACKGROUND_COLOR</color>
+  			<color name="cordova_window_primary_dark">$WINDOW_PRIMARY_DARK_COLOR</color>
   		</config-file>
 
   		<config-file target="res/values/cordova-window-background-styles.xml" parent="/*">
@@ -25,8 +27,9 @@
   				<!--<item name="android:windowBackground">@drawable/screen</item>-->
   				<item name="android:windowBackground">@color/cordova_window_background</item>
 				<item name="android:colorBackground">@color/cordova_window_background</item>
-				<item name="android:statusBarColor">@color/cordova_window_background</item>
-				<item name="android:navigationBarColor">@color/cordova_window_background</item>
+				<item name="android:statusBarColor">@color/cordova_window_primary_dark</item>
+				<item name="android:navigationBarColor">@color/cordova_window_primary_dark</item>
+				<item name="android:colorPrimaryDark">@color/cordova_window_primary_dark</item>
 				<item name="android:windowDrawsSystemBarBackgrounds">true</item>
 				<item name="android:windowTranslucentStatus">true</item>
   			</style>
