@@ -38,7 +38,7 @@
 				<item name="android:navigationBarColor">@android:color/transparent</item>
 				<item name="android:windowFullscreen">false</item>-->
 				
-				<item name="android:windowSoftInputMode">adjustPan</item>
+				<!--<item name="android:windowSoftInputMode">adjustPan</item>-->
 				<!--<item name="android:fitsSystemWindows">true</item>-->
   			</style>
   		</config-file>
