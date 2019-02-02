@@ -30,13 +30,13 @@
 				<item name="android:colorPrimaryDark">@color/cordova_window_primary_dark</item>
 				<item name="android:windowDrawsSystemBarBackgrounds">true</item>
 
-				<!--<item name="android:statusBarColor">@color/cordova_window_primary_dark</item>-->
-				<!--<item name="android:navigationBarColor">@color/cordova_window_background</item>-->
-				<item name="android:windowTranslucentStatus">true</item>
+				<item name="android:statusBarColor">@color/cordova_window_primary_dark</item>
+				<item name="android:navigationBarColor">@android:color/transparent</item>
+				<!--<item name="android:windowTranslucentStatus">true</item>
 				<item name="android:windowTranslucentNavigation">true</item>
 				<item name="android:statusBarColor">@android:color/transparent</item>
 				<item name="android:navigationBarColor">@android:color/transparent</item>
-				<item name="android:windowFullscreen">false</item>
+				<item name="android:windowFullscreen">false</item>-->
 				
 				<item name="android:windowSoftInputMode">adjustResize</item>
 				<item name="android:fitsSystemWindows">true</item>
