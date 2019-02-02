@@ -37,7 +37,7 @@
 				<item name="android:windowTranslucentNavigation">false</item>
 				<!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
 				<!--<item name="android:navigationBarColor">@color/cordova_window_primary_dark</item>-->
-				<item name="android:navigationBarColor">@android:color/transparent</item>
+				<item name="android:navigationBarColor">@android:color/black</item>
 
 				<item name="android:windowFullscreen">false</item>
 				
