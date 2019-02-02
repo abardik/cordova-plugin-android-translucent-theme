@@ -42,7 +42,7 @@
 				<item name="android:windowFullscreen">false</item>
 				
 				<item name="android:windowSoftInputMode">adjustPan|adjustNothing</item>
-				<item name="android:fitsSystemWindows">true</item>
+				<!--<item name="android:fitsSystemWindows">true</item>-->
   			</style>
   		</config-file>
   	</platform>
