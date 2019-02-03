@@ -11,8 +11,8 @@
   		<preference name="WINDOW_PRIMARY_DARK_COLOR" />
 
   		<edit-config file="AndroidManifest.xml" target="/manifest/application/activity" mode="merge">
-  			<!--<activity android:theme="@style/CordovaWindowBackgroundTheme" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" />-->
-  			<activity android:theme="@style/CordovaWindowBackgroundTheme" />
+  			<activity android:theme="@style/CordovaWindowBackgroundTheme" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" />
+  			<!--<activity android:theme="@style/CordovaWindowBackgroundTheme" />-->
   		</edit-config>
 
   		<source-file src="cordova-window-background-strings.xml" target-dir="res/values" />
@@ -29,10 +29,10 @@
   				<item name="android:windowBackground">@color/cordova_window_background</item>
 				<item name="android:colorBackground">@color/cordova_window_background</item>
 				<!--<item name="android:colorPrimaryDark">@color/cordova_window_primary_dark</item>-->
-				<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+				<!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
 
 				<item name="android:windowTranslucentStatus">true</item>
-				<item name="android:statusBarColor">@android:color/transparent</item>
+				<!--<item name="android:statusBarColor">@android:color/transparent</item>-->
 				<!--<item name="android:statusBarColor">@color/cordova_window_primary_dark</item>-->
 
 				<item name="android:windowTranslucentNavigation">false</item>
