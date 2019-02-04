@@ -27,8 +27,8 @@
   			<style name="CordovaWindowBackgroundTheme" parent="@android:style/Theme.NoTitleBar">
   			<!--<style name="CordovaWindowBackgroundTheme">-->
   				<!--<item name="android:windowBackground">@drawable/screen</item>-->
-  				<item name="android:windowBackground">@drawable/splash_screen</item>
-  				<!--<item name="android:windowBackground">@color/cordova_window_background</item>-->
+  				<!--<item name="android:windowBackground">@drawable/splash_screen</item>-->
+  				<item name="android:windowBackground">@color/cordova_window_background</item>
 				<item name="android:colorBackground">@color/cordova_window_background</item>
 				<!--<item name="android:colorPrimaryDark">#33000000</item>-->
 				<item name="android:windowDrawsSystemBarBackgrounds">true</item>
