@@ -33,7 +33,7 @@
 				<!--<item name="android:colorPrimaryDark">#00000000</item>--> <!-- #33000000 for semi-transparent status bar -->
 				<item name="android:windowDrawsSystemBarBackgrounds">true</item>
 
-				<item name="android:windowTranslucentStatus">false</item>
+				<item name="android:windowTranslucentStatus">true</item>
 				<item name="android:statusBarColor">@android:color/transparent</item> <!-- #33000000 for semi-transparent status bar -->
 				<!--<item name="android:statusBarColor">@color/cordova_window_primary_dark</item>-->
 
@@ -41,7 +41,7 @@
 				<!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
 				<!--<item name="android:navigationBarColor">@color/cordova_window_primary_dark</item>-->
 
-				<item name="android:windowFullscreen">true</item>
+				<item name="android:windowFullscreen">false</item>
 				
 				<item name="android:windowSoftInputMode">adjustPan|adjustNothing</item>
 				<item name="android:fitsSystemWindows">true</item>
