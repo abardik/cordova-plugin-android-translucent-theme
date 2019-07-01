@@ -1,27 +1,22 @@
 {
-  "name": "cordova-plugin-android-window-background",
-  "version": "1.0.4",
-  "description": "Plugin to set Android window background for Cordova applications",
+  "name": "cordova-plugin-android-translucent-theme",
+  "version": "1.0.5",
+  "description": "Plugin to set Android translucent theme for Cordova applications",
   "repository": {
     "type": "git",
-    "url": "git://github.com/abardik/cordova-plugin-android-window-background.git"
+    "url": "git://github.com/abardik/cordova-plugin-android-translucent-theme.git"
   },
   "keywords": [
     "cordova",
-    "ecosystem:cordova",
-    "cordova-android",
-    "payments",
     "android",
-    "ionic",
     "background",
-    "window",
-    "background"
+    "statusbar",
+    "translucent",
+    "theme"
   ],
   "author": {
-    "name": "WINTER",
-    "email": "info@winter.ax",
-    "url": "https://winter.ax"
+    "name": "abardik",
   },
   "license": "MIT",
-  "homepage": "https://github.com/abardik/cordova-plugin-android-window-background"
+  "homepage": "https://github.com/abardik/cordova-plugin-android-translucent-theme"
 }
