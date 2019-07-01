@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-android-window-background" version="1.0.5">
-    <name>Android Window Background</name>
-    <description>Plugin to set Android window background for Cordova/Ionic applications</description>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-android-translucent-theme" version="1.0.5">
+    <name>Android Translucent Theme Plugin</name>
+    <description>Plugin to set Android translucent theme for Cordova applications</description>
     <license>MIT</license>
-    <author>WINTER</author>
-    <keywords>cordova,ionic,android,window background,color,background,window,theme,styles.xml</keywords>
+    <author>abardik</author>
+    <keywords>cordova,android,background,theme,styles</keywords>
 	
   	<platform name="android">
   		<preference name="WINDOW_BACKGROUND_COLOR" />
