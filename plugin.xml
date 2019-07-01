@@ -34,8 +34,8 @@
 				<item name="android:windowDrawsSystemBarBackgrounds">true</item>
 
 				<item name="android:windowTranslucentStatus">true</item>
-				<!--<item name="android:statusBarColor">#00000000</item>--> <!-- #33000000 for semi-transparent status bar -->
-				<item name="android:statusBarColor">@color/cordova_window_primary_dark</item>
+				<item name="android:statusBarColor">#00000000</item> <!-- #33000000 for semi-transparent status bar -->
+				<!--<item name="android:statusBarColor">@color/cordova_window_primary_dark</item>-->
 
 				<item name="android:windowTranslucentNavigation">false</item>
 				<!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
