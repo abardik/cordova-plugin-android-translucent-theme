@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-android-window-background",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Plugin to set Android window background for Cordova applications",
   "repository": {
     "type": "git",
