@@ -4,7 +4,7 @@
     <description>Plugin to set Android translucent theme for Cordova applications</description>
     <license>MIT</license>
     <author>abardik</author>
-    <keywords>cordova,android,background,theme,styles</keywords>
+    <keywords>cordova,android,background,statusbar,translucent,theme</keywords>
 	
   	<platform name="android">
   		<preference name="WINDOW_BACKGROUND_COLOR" />
