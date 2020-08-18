@@ -6,7 +6,7 @@
     <author>abardik</author>
     <keywords>cordova,android,background,statusbar,translucent,theme</keywords>
 	
-  	<platform name="android">
+  	<!--<platform name="android">-->
   		<preference name="WINDOW_BACKGROUND_COLOR" />
   		<preference name="WINDOW_PRIMARY_DARK_COLOR" />
 
@@ -47,5 +47,5 @@
 				<item name="android:fitsSystemWindows">true</item>
   			</style>
   		</config-file>
-  	</platform>
+  	<!--</platform>-->
 </plugin>
