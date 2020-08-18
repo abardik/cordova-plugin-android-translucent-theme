@@ -4,7 +4,7 @@
   "description": "Plugin to set Android translucent theme for Cordova applications",
   "repository": {
     "type": "git",
-    "url": "git://github.com/abardik/cordova-plugin-android-translucent-theme.git"
+    "url": "git+https://github.com/abardik/cordova-plugin-android-translucent-theme.git"
   },
   "keywords": [
     "cordova",
